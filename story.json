@@ -1,0 +1,500 @@
+{
+  "scenes": [
+    {
+      "scene_number": 1,
+      "background": "office.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Manager",
+          "gender": "female",
+          "age": 45,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Sarah",
+          "text": "Finally, my shift is over. I really despise this job.",
+          "audio": "audio/Sarah_1_1.mp3",
+          "trigger": "despise"
+        },
+        {
+          "character": "Manager",
+          "text": "Sarah, we need to talk.",
+          "audio": "audio/Manager_1_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "What is it, ma'am?",
+          "audio": "audio/Sarah_1_2.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "You're fired.",
+          "audio": "audio/Manager_1_2.mp3",
+          "trigger": "fired"
+        },
+        {
+          "character": "Sarah",
+          "text": "Are you serious?",
+          "audio": "audio/Sarah_1_3.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "Do I look like I'm joking? You're always late and you missed two days without notice.",
+          "audio": "audio/Manager_1_3.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I had a fever, that's why I was absent.",
+          "audio": "audio/Sarah_1_4.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "I don't care. Leave now.",
+          "audio": "audio/Manager_1_4.mp3",
+          "trigger": "leave"
+        },
+        {
+          "character": "Sarah",
+          "text": "But who will do the baking if I'm gone?",
+          "audio": "audio/Sarah_1_5.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "I've found a better baker than you. Now get out.",
+          "audio": "audio/Manager_1_5.mp3"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "background": "home.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Mom",
+          "gender": "female",
+          "age": 55,
+          "visible": true
+        },
+        {
+          "name": "Dad",
+          "gender": "male",
+          "age": 60,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Sarah",
+          "text": "That was the only job that hired me and the only one I knew. Mom, Dad, I'm really sorry I can't help with the bills anymore. I need a drink.",
+          "audio": "audio/Sarah_2_1.mp3",
+          "trigger": "sorry"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "background": "bar.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Bartender",
+          "gender": "male",
+          "age": 35,
+          "visible": true
+        },
+        {
+          "name": "Emily",
+          "gender": "female",
+          "age": 30,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Sarah",
+          "text": "Hey, can I get a beer?",
+          "audio": "audio/Sarah_3_1.mp3"
+        },
+        {
+          "character": "Bartender",
+          "text": "Sure thing.",
+          "audio": "audio/Bartender_3_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "You know, my manager thinks she can find someone better than me. She's so bossy.",
+          "audio": "audio/Sarah_3_2.mp3",
+          "trigger": "bossy"
+        },
+        {
+          "character": "Emily",
+          "text": "I know the feeling. Having a tough boss is the worst.",
+          "audio": "audio/Emily_3_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "We've been chatting for hours. Can we be friends?",
+          "audio": "audio/Sarah_3_3.mp3",
+          "trigger": "friends"
+        },
+        {
+          "character": "Emily",
+          "text": "Sure! I'm Emily. You?",
+          "audio": "audio/Emily_3_2.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I'm Sarah.",
+          "audio": "audio/Sarah_3_4.mp3"
+        },
+        {
+          "character": "Emily",
+          "text": "Nice to meet you, Sarah. I gotta head home or my parents will worry.",
+          "audio": "audio/Emily_3_3.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Bye, Emily. At least I made a new friend.",
+          "audio": "audio/Sarah_3_5.mp3",
+          "trigger": "friend"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "background": "home.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Mom",
+          "gender": "female",
+          "age": 55,
+          "visible": true
+        },
+        {
+          "name": "Dad",
+          "gender": "male",
+          "age": 60,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Mom",
+          "text": "Where were you last night?",
+          "audio": "audio/Mom_4_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I was at a friend's house.",
+          "audio": "audio/Sarah_4_1.mp3"
+        },
+        {
+          "character": "Mom",
+          "text": "First, you don't have friends. Second, who gave you permission to visit anyone? Third, what's with the mark?",
+          "audio": "audio/Mom_4_2.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I got fired yesterday, so I went to the bar.",
+          "audio": "audio/Sarah_4_2.mp3",
+          "trigger": "fired"
+        },
+        {
+          "character": "Dad",
+          "text": "Why did you come home this morning?",
+          "audio": "audio/Dad_4_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Please, not Dad. He's scary when mad. Okay, I woke up in a hotel room.",
+          "audio": "audio/Sarah_4_3.mp3",
+          "trigger": "scary"
+        },
+        {
+          "character": "Dad",
+          "text": "You're in big trouble. Tell me who took you there.",
+          "audio": "audio/Dad_4_2.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I don't know. I was drunk.",
+          "audio": "audio/Sarah_4_4.mp3",
+          "trigger": "drunk"
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "background": "home.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Sarah",
+          "text": "That was the worst day ever. Now they'll kill me. Two weeks later, I found out I'm pregnant with twins.",
+          "audio": "audio/Sarah_5_1.mp3",
+          "trigger": "worst"
+        }
+      ]
+    },
+    {
+      "scene_number": 6,
+      "background": "home.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Ethan",
+          "gender": "male",
+          "age": 6,
+          "visible": true
+        },
+        {
+          "name": "Mia",
+          "gender": "female",
+          "age": 6,
+          "visible": true
+        },
+        {
+          "name": "Kids",
+          "gender": "female",
+          "age": 6,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Ethan",
+          "text": "Mom, what are you doing?",
+          "audio": "audio/Ethan_6_1.mp3"
+        },
+        {
+          "character": "Mia",
+          "text": "Ethan is teaching me to read.",
+          "audio": "audio/Mia_6_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Okay, I'm going out to find a job. I need to help grandma and grandpa with the bills.",
+          "audio": "audio/Sarah_6_2.mp3"
+        },
+        {
+          "character": "Ethan",
+          "text": "Mom, are you going to look for a job dressed like that?",
+          "audio": "audio/Ethan_6_2.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "What's wrong with what I'm wearing?",
+          "audio": "audio/Sarah_6_3.mp3"
+        },
+        {
+          "character": "Ethan",
+          "text": "Mom, you should change into something more formal.",
+          "audio": "audio/Ethan_6_3.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Ethan, you're still a kid. How dare you tell me what to wear?",
+          "audio": "audio/Sarah_6_4.mp3",
+          "trigger": "dare"
+        },
+        {
+          "character": "Ethan",
+          "text": "Sorry, Mom. It's just that no one will hire you if you dress like that.",
+          "audio": "audio/Ethan_6_4.mp3",
+          "trigger": "sorry"
+        },
+        {
+          "character": "Sarah",
+          "text": "I'm leaving now. Remember to hide your mark.",
+          "audio": "audio/Sarah_6_5.mp3"
+        },
+        {
+          "character": "Kids",
+          "text": "Bye, Mom.",
+          "audio": "audio/Kids_6_1.mp3"
+        }
+      ]
+    },
+    {
+      "scene_number": 7,
+      "background": "office.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Manager",
+          "gender": "female",
+          "age": 45,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Manager",
+          "text": "Do you have your resume?",
+          "audio": "audio/Manager_7_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I forgot it at home.",
+          "audio": "audio/Sarah_7_1.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "Then we can't hire you.",
+          "audio": "audio/Manager_7_2.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Can I speak to the CEO?",
+          "audio": "audio/Sarah_7_2.mp3"
+        },
+        {
+          "character": "Manager",
+          "text": "The CEO doesn't hire people without a resume.",
+          "audio": "audio/Manager_7_3.mp3"
+        }
+      ]
+    },
+    {
+      "scene_number": 8,
+      "background": "office_executive.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "James",
+          "gender": "male",
+          "age": 50,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "James",
+          "text": "Do you know who you're talking to?",
+          "audio": "audio/James_8_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "I'm looking for the CEO.",
+          "audio": "audio/Sarah_8_1.mp3"
+        },
+        {
+          "character": "James",
+          "text": "I am the CEO, and I'm not hiring you.",
+          "audio": "audio/James_8_2.mp3",
+          "trigger": "not hiring"
+        },
+        {
+          "character": "Sarah",
+          "text": "Please, I need this job.",
+          "audio": "audio/Sarah_8_2.mp3"
+        },
+        {
+          "character": "James",
+          "text": "Show me your mark.",
+          "audio": "audio/James_8_3.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "What mark?",
+          "audio": "audio/Sarah_8_3.mp3"
+        },
+        {
+          "character": "James",
+          "text": "You're hired.",
+          "audio": "audio/James_8_4.mp3",
+          "trigger": "hired"
+        }
+      ]
+    },
+    {
+      "scene_number": 9,
+      "background": "home.jpg",
+      "characters": [
+        {
+          "name": "Sarah",
+          "gender": "female",
+          "age": 28,
+          "visible": true
+        },
+        {
+          "name": "Ethan",
+          "gender": "male",
+          "age": 6,
+          "visible": true
+        },
+        {
+          "name": "Mia",
+          "gender": "female",
+          "age": 6,
+          "visible": true
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "Ethan",
+          "text": "Mom, did you get the job?",
+          "audio": "audio/Ethan_9_1.mp3"
+        },
+        {
+          "character": "Sarah",
+          "text": "Yes, I did.",
+          "audio": "audio/Sarah_9_1.mp3"
+        },
+        {
+          "character": "Mia",
+          "text": "Yay! We're so proud of you!",
+          "audio": "audio/Mia_9_1.mp3",
+          "trigger": "proud"
+        }
+      ]
+    }
+  ]
+}
